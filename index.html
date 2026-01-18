@@ -15,27 +15,32 @@
 
 <body>
     <header class="bg-[#412567]">
-        <nav class="grid grid-cols-3 max-w-[1600px] mx-auto justify-between items-center px-52 py-4">
+        <nav class="flex max-w-[1600px] mx-auto justify-between items-center px-5 lg:px-52 py-4">
             <div class="logo">
                 <h1 class="text-4xl font-bold text-white">Tech<span
                         class="bg-linear-to-t from-[#F7E93F] from-0% via-[#FB09B4] via-51% to-[#9100F8] to-100% text-transparent bg-clip-text">Wave</span>
                 </h1>
             </div>
-            <div class="flex justify-center items-center">
+            <div class="hidden lg:flex justify-center items-center ">
                 <ul class="flex gap-8 font-medium text-[16px] text-white">
                     <li><a href="">About</a></li>
                     <li><a href="">Episode</a></li>
                     <li><a href="">Host</a></li>
                 </ul>
             </div>
-            <div class="subscribe flex justify-end"> <button
+            <div class="hidden lg:flex subscribe  justify-end"> <button
                     class="rounded-4xl px-4 bg-linear-to-tr from-[#F7E93F] from-0% via-[#FB09B4] via-51% to-[#9100F8] to-100% text-white w-auto h-11">
                     Subscribe <span class="text-white"><i class="fa-solid fa-arrow-right-long"></i></span>
-                </button></div>
-
+                </button>
+            </div>
+            <div class="mobile-menu justify-end lg:hidden">
+                <a class="text-2xl text-white" href=""><i class="fa-solid fa-bars"></i></a>
+            </div>
         </nav>
     </header>
     <main>
+        <!-- Hero Section -->
+
 
     </main>
     <footer>
